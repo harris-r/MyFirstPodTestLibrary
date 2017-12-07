@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0CC45B48A4392288D7423EF4 /* Pods_MyFirstPodTestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstPodTestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F4E94788648335470E66FF /* Pods-MyFirstPodTestLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodTestLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstPodTestLibrary_Tests/Pods-MyFirstPodTestLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1FA3DA4F3A4DF158A10E6D39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1FA3DA4F3A4DF158A10E6D39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		438282611087F7E5F1A9D4F7 /* Pods-MyFirstPodTestLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodTestLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstPodTestLibrary_Tests/Pods-MyFirstPodTestLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyFirstPodTestLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstPodTestLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6552D6DD410D9AC4336D9929 /* Pods-MyFirstPodTestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodTestLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstPodTestLibrary_Example/Pods-MyFirstPodTestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B19A04F80617EB72ABF3A600 /* Pods_MyFirstPodTestLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstPodTestLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0488991FC43EA20EC714A1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0488991FC43EA20EC714A1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D7572DDB40BD4FF3B2B112CA /* Pods-MyFirstPodTestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstPodTestLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstPodTestLibrary_Example/Pods-MyFirstPodTestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEF1BF40D422DB43B351DBCC /* MyFirstPodTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyFirstPodTestLibrary.podspec; path = ../MyFirstPodTestLibrary.podspec; sourceTree = "<group>"; };
+		FEF1BF40D422DB43B351DBCC /* MyFirstPodTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyFirstPodTestLibrary.podspec; path = ../MyFirstPodTestLibrary.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Y6AP29W8TX;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,6 +518,7 @@
 			baseConfigurationReference = 6552D6DD410D9AC4336D9929 /* Pods-MyFirstPodTestLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6AP29W8TX;
 				INFOPLIST_FILE = MyFirstPodTestLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +534,7 @@
 			baseConfigurationReference = D7572DDB40BD4FF3B2B112CA /* Pods-MyFirstPodTestLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6AP29W8TX;
 				INFOPLIST_FILE = MyFirstPodTestLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

@@ -1,0 +1,22 @@
+{
+  "name": "MyFirstPodTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MyFirstPodTestLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/raghu/MyFirstPodTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "raghu": "rockers.raghuraman@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/raghu/MyFirstPodTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyFirstPodTestLibrary/Classes/**/*"
+}
